@@ -662,7 +662,6 @@ header .header {
 }
 @media screen and (max-width: 500px) {
   .about_box {
-    background: orange;
     width: 100%;
     max-width: 500px;
   }
