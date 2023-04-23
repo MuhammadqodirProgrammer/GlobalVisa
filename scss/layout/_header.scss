@@ -159,31 +159,21 @@ header {
         padding: 1.5rem 0;
         width: 100%;
         max-width: 500px;
-        .header {
-          justify-content: space-between;
-        }
+       
       }
 }
 @media screen and (max-width:400px) {
     header {
-        background: orange;
-        padding: 1.5rem 0;
         width: 100%;
         max-width: 400px !important;
-        .header {
-          justify-content: space-between;
-        }
+      
       }
 }
 @media screen and (max-width:380px) {
     header {
-        background: red;
-        padding: 1.5rem 0;
         width: 100%;
         max-width: 380px !important;
-        .header {
-          justify-content: space-between;
-        }
+       
       }
 }
 .hlogo{

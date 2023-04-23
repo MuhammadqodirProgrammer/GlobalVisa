@@ -9,3 +9,26 @@
 	}
 }
 
+
+@media screen and (max-width:500px) {
+    #hero {
+        width: 100%;
+        max-width: 500px;
+       
+      }
+}
+@media screen and (max-width:400px) {
+  #hero {
+        width: 100%;
+        max-width: 400px !important;
+      
+      }
+}
+@media screen and (max-width:380px) {
+  #hero {
+        width: 100%;
+        max-width: 380px !important;
+       
+      }
+}
+
