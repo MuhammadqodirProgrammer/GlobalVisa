@@ -156,16 +156,34 @@ header {
 
 @media screen and (max-width:500px) {
     header {
-
-      
-       
+        padding: 1.5rem 0;
+        width: 100%;
+        max-width: 500px;
         .header {
-          justify-content: center;
-          gap: 10px;
+          justify-content: space-between;
         }
       }
 }
-
+@media screen and (max-width:400px) {
+    header {
+        padding: 1.5rem 0;
+        width: 100%;
+        max-width: 400px !important;
+        .header {
+          justify-content: space-between;
+        }
+      }
+}
+@media screen and (max-width:380px) {
+    header {
+        padding: 1.5rem 0;
+        width: 100%;
+        max-width: 380px !important;
+        .header {
+          justify-content: space-between;
+        }
+      }
+}
 .hlogo{
     display: flex;
     align-items: center;
