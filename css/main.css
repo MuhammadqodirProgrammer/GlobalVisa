@@ -682,6 +682,13 @@ header .header {
     max-width: 380px !important;
   }
 }
+@media screen and (max-width: 360px) {
+  .about_box {
+    background: red;
+    width: 100%;
+    max-width: 360px !important;
+  }
+}
 #form {
   padding-bottom: 50px;
   padding-top: 60px;

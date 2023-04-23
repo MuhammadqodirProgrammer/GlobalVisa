@@ -105,4 +105,12 @@
        
       }
 }
+@media screen and (max-width:360px) {
+  .about_box {
+    background: red;
+        width: 100%;
+        max-width: 360px !important;
+       
+      }
+}
 
