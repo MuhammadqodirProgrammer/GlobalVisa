@@ -154,6 +154,18 @@ header {
     }
 }
 
+@media screen and (max-width:500px) {
+    header {
+
+      
+       
+        .header {
+          justify-content: center;
+          gap: 10px;
+        }
+      }
+}
+
 .hlogo{
     display: flex;
     align-items: center;
