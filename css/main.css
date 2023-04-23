@@ -559,7 +559,6 @@ header .header {
 }
 @media screen and (max-width: 500px) {
   header {
-    padding: 1.5rem 0;
     width: 100%;
     max-width: 500px;
   }
@@ -868,24 +867,6 @@ header .header {
     width: 100%;
   }
 }
-@media screen and (max-width: 500px) {
-  .all {
-    width: 100%;
-    max-width: 500px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .all {
-    width: 100%;
-    max-width: 400px !important;
-  }
-}
-@media screen and (max-width: 380px) {
-  .all {
-    width: 100%;
-    max-width: 380px !important;
-  }
-}
 #popular {
   padding-top: 90px;
 }
@@ -1105,24 +1086,6 @@ header .header {
     left: 20% !important;
   }
 }
-@media screen and (max-width: 500px) {
-  #popular {
-    width: 100%;
-    max-width: 500px;
-  }
-}
-@media screen and (max-width: 400px) {
-  #popular {
-    width: 100%;
-    max-width: 400px !important;
-  }
-}
-@media screen and (max-width: 380px) {
-  #popular {
-    width: 100%;
-    max-width: 380px !important;
-  }
-}
 #hero {
   width: 100%;
 }
@@ -1134,24 +1097,6 @@ header .header {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 500px) {
-  #hero {
-    width: 100%;
-    max-width: 500px;
-  }
-}
-@media screen and (max-width: 400px) {
-  #hero {
-    width: 100%;
-    max-width: 400px !important;
-  }
-}
-@media screen and (max-width: 380px) {
-  #hero {
-    width: 100%;
-    max-width: 380px !important;
-  }
-}
 body {
   overflow-x: hidden !important;
 }/*# sourceMappingURL=main.css.map */
