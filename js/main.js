@@ -26,13 +26,13 @@ function scrollFunction() {
 // Backtop
 const toTop = document.querySelector(".to-top");
 
-window.addEventListener("scroll", () =>{ 
-    if (window.pageYOffset > 300) {
-        toTop.classList.add("active");
-    } else{
-        toTop.classList.remove("active");
-    }
-})
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 300) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+  }
+});
 
 // form
 const elForm = document.querySelector(".js-form");
@@ -47,13 +47,13 @@ let arr = [
     name: "Ali",
     lastName: "Jasurov",
     Phone: "90123456789",
-    Text:"USA ga dam olgani borish"
+    Text: "USA ga dam olgani borish",
   },
   {
     name: "Sardor",
     lastName: "Nosirov",
     Phone: "99987654321",
-    Text:"Dubai ga dam olgani borish"
+    Text: "Dubai ga dam olgani borish",
   },
 ];
 elForm.addEventListener("submit", (evt) => {
@@ -71,3 +71,24 @@ elForm.addEventListener("submit", (evt) => {
   elPhone.value = "";
   elText.value = "";
 });
+
+// Video player
+
+const video = document.querySelector(".video-bg");
+const pauseVideo = document.querySelector(".pause");
+const playVideo = document.querySelector(".replay");
+video.playbackRate = 1.5
+
+pauseVideo.addEventListener("click", (evt) => {
+  evt.preventDefault();
+  video.pause()
+  pauseVideo.style.display = "none";
+  playVideo.style.display = "block"
+});
+playVideo.addEventListener("click", (evt) => {
+  evt.preventDefault();
+  video.play()
+  playVideo.style.display = "none";
+  pauseVideo.style.display = "block"
+});
+
